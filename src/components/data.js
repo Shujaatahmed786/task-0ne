@@ -1,41 +1,42 @@
-import React from 'react'
 
- const data = () => {
-    const list = [{
-        heading1:'Workshops',
-        shop1:'campaign objective',
-        shop2:'preparing proposal',
-        shop3:'Deciding deliverables',
-        shop4:'Business Analyst'
+    const data = [{
+        img: "/assets/card1.png",
+        heading:'Workshops',
+        shop:'Business Anaylyst',
+        store:'preparing proposal',
+        score:'Deciding deliverables',
+        search:'Business Analyst'
 
     },
     {
-        heading2:'Planning',
-        shop1:'Industry Research',
-        shop2:'Competitor Research',
-        shop3:'Selecting marketing channels',
-        shop4:'strategy development'
+        img: "/assets/card2.png",
+        heading:'Planning',
+        shop:'Industry Research',
+        store:'Competitor Research',
+        score:'Selecting marketing channels',
+        search:'strategy development'
  },
  {
-    heading3:'A/b Testing',
-    shop1:'Experimenting with ads ',
-    shop2:'Experiment with content',
-    shop3:'Testing SEO techniques',
-    shop4:'Analyzing audience behaviour'
+    img:'/assets/card3.png',
+    heading:'A/b Testing',
+    shop:'Experimenting with ads ',
+    store:'Experiment with content',
+    score:'Testing SEO techniques',
+    search:'Analyzing audience behaviour'
 },
 {
-    heading4:'Execution',
-    shop1:'Creation Campaign ',
-    shop2:'Content production',
-    shop3:'Strategy optimimzation',
-    shop4:'Analysis'
+    img:'assets/card4.png',
+    heading:'Execution',
+    shop:'Creation Campaign ',
+    store:'Content production',
+    score:'Strategy optimimzation',
+    search:'Analysis'
 }
 ]
-  return (
-    <div>
 
-    </div>
-  )
-}
+
 
 export default data
+
+
+

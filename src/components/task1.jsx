@@ -43,8 +43,8 @@ export const task1 = () => {
       </div>
       <div className="grid grid-cols-4 items-center m-10 border-solid ">
         {data?.map((item, index) => (
-          <div className="w-[18rem] h-[20rem] m-auto border-solid hover:bg-gray-300 rounded">
-            <div className=" flex justify-center items-center  w-16 h-16 bg-gray-400 ">
+          <div className="w-[18rem] h-[20rem] m-auto border-solid hover:bg-gray-300  cursor-pointer _parent-hover rounded-xl">
+            <div className=" flex justify-center items-center  w-16 h-16 bg-gray-400">
               <img src={item?.img} alt="megaphone" />
             </div>
             <h1 className="text-[#363636] font-[600] text-[2.1875rem] p-5 ">

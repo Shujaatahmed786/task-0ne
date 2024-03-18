@@ -7,7 +7,7 @@ export const task1 = () => {
     <div className="overflow-hidden flex flex-col  items-center justify-center gap-10">
       <div className="flex justify-around p-12 md:flex-row flex-col gap-10">
         <div>
-          <h1 className="w-[10em] text-[2.375rem] leading-none text-[400] md:w-[10em] gap-[20rem] w-[40rem]">
+          <h1 className="w-[10em] text-[2.375rem] leading-none text-[400] md:w-[20em] gap-[20rem]">
             Our Digital Marketing Process
           </h1>
           <p class="text-[1.237rem] text-[#363636] md:w-[35rem] w-[25em] mt-5">

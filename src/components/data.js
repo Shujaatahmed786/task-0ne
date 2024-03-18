@@ -13,7 +13,7 @@
         heading:'Planning',
         shop:'Industry Research',
         store:'Competitor Research',
-        score:'Selecting marketing channels',
+        score:'marketing channels',
         search:'strategy development'
  },
  {

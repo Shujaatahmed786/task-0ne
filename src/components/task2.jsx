@@ -2,7 +2,8 @@ import React from 'react'
 
  const task2 = () => {
   return (
-    <div >
+    <div>
+      <img src="assets/arrow.png" alt="arrow" />
 
     </div>
   )

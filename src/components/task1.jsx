@@ -4,13 +4,13 @@ import data from "./data";
 
 export const task1 = () => {
   return (
-    <div className="overflow-hidden flex flex-col  items-center justify-center gap-10">
-      <div className="flex justify-around p-12 md:flex-row flex-col gap-10">
+    <div className="lg:flex flex-col items-center justify-center gap-10 p-10 overflow-hidden">
+      <div className="flex justify-around p-12 tab:flex-col gap-10">
         <div>
-          <h1 className="w-[10em] text-[2.375rem] leading-none text-[400] md:w-[20em] gap-[20rem]">
+          <h1 className="lg:text-[2.375rem] lap:text-[2.375rem] leading-none text-[400] tab:text-[2rem] ">
             Our Digital Marketing Process
           </h1>
-          <p class="text-[1.237rem] text-[#363636] md:w-[35rem] w-[25em] mt-5">
+          <p class="text-[1.237rem] text-[#363636] w-[35rem]  mt-5">
             Instead of relying on the whims or myths, we create our strategy
             after studying the numbers of your industry and understanding the
             psychology of your target audience. Be it SMM, SEO, or PPC, we
@@ -42,26 +42,28 @@ export const task1 = () => {
       <div>
         <div className="flex justify-center">
           <div className="grid grid-cols-4 tab:grid-cols-2 p-12 gap-20">
-            {data?.map((item, index) => (
-              <div className="w-[15rem] h-[20rem] m-auto border-solid hover:bg-gray-300 cursor-pointer mx-auto _parent-hover rounded-xl ">
+            {data?.map((item, index) => ( 
+              <div className="p-2 w-[15rem] h-[20rem] m-auto border-solid hover:bg-gray-300 cursor-pointer mx-auto _parent-hover rounded-xl ">
                 
-                <div className="flex justify-center items-center p-4 w-16 h-16 bg-gray-400 rounded-xl ">
-                  <img src={item?.img} alt="megaphone" />
+                <div className="flex justify-center items-center p-4 w-16 h-16 bg-gray-400 rounded-xl">
+                  <img src={item?.img} alt="megaphone"/>
                 </div>
                 <h1 className="text-[#363636] font-[600] text-[2.1875rem]">
                   {item?.heading}
                 </h1>
                 <ul>
                   <li className="flex items-center p-2">
-                    <img src={Triangle} className="p-2" />
+                    <div>
+                    <img src={Triangle} className="p-2 relative"/>
+                    </div>
                     <p>{item?.shop}</p>
                   </li>
                   <li className="flex items-center p-2">
-                    <img src={Triangle} className="p-2" />
+                    <img src={Triangle} className="p-2 "/>
                     <p> {item?.store} </p>
                   </li>
                   <li className="flex items-center p-2">
-                    <img src={Triangle} className="p-2"/>
+                    <img src={Triangle} className="p-2 "/>
                     <p> {item?.score}</p>
                   </li>
                   <li className="flex items-center p-2">
